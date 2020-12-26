@@ -1,0 +1,127 @@
+@font-face  {
+    font-family: 'Quicksand';
+    src: url('../assets/font/Quicksand-VariableFont_wght.ttf');
+}
+
+body {
+    font-family: 'Quicksand';
+}
+
+.container {
+    font-weight: bold;
+}
+
+.nav-wrapper a {
+    color: white;
+}
+
+.nav-wrapper ul li a {
+    width: 110px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 5px;
+    border-radius: 10px;
+}
+
+.nav-wrapper ul li a:hover{
+    background-color: #8B0000;
+    color: white;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+}
+
+.slider h3,
+.slider h5,
+.products h3 {
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+
+}
+
+.parallax-container {
+    height: 20%;
+}
+
+.parallax img {
+
+    opacity: 0.5 !important;
+}
+
+.products img {
+    filter: drop-shadow(1px 1px 1px rgba(0, 0, 0, 0.3));
+}
+
+section {
+    padding: 20px 0;
+}
+
+footer {
+    padding: 5px 0px;
+}
+
+footer {
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+footer p {
+    font-family: 'Quicksand';
+}
+
+footer p:nth-child(1) {
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    line-height: 10px;
+}
+
+footer p:nth-child(2) {
+    font-size: 16px;
+    color: white;
+    width: 600px;
+    text-align: center;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e6e3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+
+.social-icons i {
+    color: #000;
+}
+
+.social-icons a:hover{
+    background-color: #8a0000;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+}
+
+.social-icons a:hover i {
+    color: #fff;
+    transition: all ease 0.5s;
+}
